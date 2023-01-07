@@ -1,0 +1,137 @@
+body {
+
+font-family: 'Open Sans', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.banner-container{
+    background-color:#e7d6d6 ;
+    background-image: url(images/cover-picture.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.banner-container.banner-container-one{
+    background-color:#e7d6d6 ;
+    background-image: url(images/pexels-josh-sorenson-1714208.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.banner-column {
+    background-color: #8d8d8d;
+}
+
+.about{
+    background-color: #00BDBD;
+}
+
+.education{
+    background-color: #EEEEEE;
+}
+
+.education-heading {
+    color: #fb857f;
+}
+
+.circle{
+    background-color: #fb857f;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  /*  display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+
+
+.project{
+    background-color: #2BB3DD;
+}
+
+
+
+.portfolio-color{
+    
+        color: #fb857f;
+    }
+.contact-section{
+    background-color: #474D5D;
+}
+
+.inner-form{
+  background-color: #585F73;
+  
+}
+
+.footer{
+    background-color: #2BB3DD;
+}
+
+.circle-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ddf1dc;
+    display: inline-block;
+    font-size: 40px;
+    color: #00BDBD;
+}
+.fa-facebook-f{
+    color: #3b5998;
+}
+
+
+.fa-youtube{
+   color: #c4302b;
+}
+.fa-github{
+    color: #4078c0;
+    
+}
+.circle-icon:hover{
+    background-color: #8d8d8d;
+}
+
+
+.scroll-icon{
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #e4d50d;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    transition: all .05s;
+    opacity: 0;
+
+
+
+}
+
+.scroll-icon.xyz{
+    pointer-events:auto;
+    opacity: 1;
+    
+}
+
+.fa-chevron-up{
+    font-size: 40px;
+}
+
+
